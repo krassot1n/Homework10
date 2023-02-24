@@ -1,5 +1,3 @@
-import java.util.Arrays;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,7 +8,7 @@ public class Main {
     }
 
     private static void task1() {
-        System.out.println("Задача №1,2,3");
+        System.out.println("Задача №1");
         String firstName = "Ivanov ";
         String midletName = " Ivan";
         String lastName = " Ivanovich";
@@ -32,4 +30,5 @@ public class Main {
         fullName = fullName.replace("ё","е");
         System.out.println("Данные ФИО сотрудника —" + fullName);
     }
+
 }
